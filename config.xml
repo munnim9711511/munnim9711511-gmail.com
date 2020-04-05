@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.dua.munnim "
+    versionCode = "1" 
+    version     = "1.0.0" >
+   <name>Corona </name>
+    <description>
+            an app with data on corona 
+    </description>
+    <author href="https://munnim.org" email="munnim9711511@hotmail.com">
+          abdul munnim
+    </author>
+    
+   
+    <platform name="android"/>
+   
+    <preference name="phonegap-version" value="cli-6.5.0" />
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="disallowOverscroll" value="true" />
+    <preference name="target-device" value="universal"/>
+    <preference name="deployment-target" value="7.0"/>
+    <preference name="exit-on-suspend" value="false"/>
+    <preference name="detect-data-types" value="true"/>
+    <preference name="prerendered-icon" value="false"/>
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="ios-statusbarstyle" value="default"/>
+    <preference name="StatusBarStyle" value="default" />
+    
+    <preference name="android-minSdkVersion" value="21" />
+    <preference name="android-installLocation" value="auto" />
+    
+   
+      
+       <platform name="android">
+        <icon src="res/icon/android/ldpi.png" qualifier="ldpi"/>
+        <icon src="res/icon/android/mdpi.png" qualifier="mdpi"/>
+        <icon src="res/icon/android/hdpi.png" qualifier="hdpi"/>
+        <icon src="res/icon/android/xhdpi.png" qualifier="xhdpi"/>
+        <icon src="res/icon/android/xxhdpi.png" qualifier="xxhdpi"/>
+        <icon src="res/icon/android/xxxhdpi.png" qualifier="xxxhdpi"/>
+      </platform>
+      
+ 
+      
+   
+      
+      <preference name="permissions" value="none"/>
+      
+ 
+     
+    
+      
+      <access origin="*" subdomains="true"/>
+      
+      <allow-intent href="http://*/*"/>
+      <allow-intent href="https://*/*"/>
+      <allow-intent href="tel:*"/>
+      <allow-intent href="sms:*"/>
+      <allow-intent href="mailto:*"/>
+      <allow-intent href="geo:*"/>
+      <platform name="android">
+        <allow-intent href="market:*"/>
+      </platform>
+      <platform name="ios">
+        <allow-intent href="itms:*"/>
+        <allow-intent href="itms-apps:*"/>
+      </platform>
+      
+</widget>
